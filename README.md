@@ -85,6 +85,17 @@ A structured data pipeline was implemented to handle:
 
 The raw dataset underwent rigorous **data cleaning, validation, and structuring** to ensure high data quality, consistency, and reliability for downstream analysis and visualization.
 
+
+## Data Source
+[Dataset: Free Ebooks Metadata Dataset](https://img.shields.io/badge/Dataset-Free%20Ebooks%20Metadata%20Dataset-5E5E5E?style=flat-square)
+      
+Dataset sourced from Kaggle: **Free Ebooks Metadata Dataset (CSV Format)**.
+
+**Dataset description:**
+- 2,100+ global pop-up events across North America, Europe, Asia-Pacific, etc.
+- Includes: Revenue, Units Sold, Footfall, Sell-through %, Event duration
+- Built for retail analytics, demand forecasting, and benchmarking
+
 ---
 
 ## 📊 Dashboard Development  
@@ -177,18 +188,20 @@ Follow these steps to explore and use the project:
    ```bash
    git clone https://github.com/Ajitjha3095/EbookPerformanceOverview.git
 
-Navigate to the project folder
 
-Explore Data Collection
-Open the Jupyter Notebook inside the Py notebook Scrape/ folder
-Run the notebook to understand the web scraping and data processing workflow
-Access Cleaned Dataset
-Navigate to the data set/ folder
-Use the dataset for analysis or visualization
-View Dashboards
-Open:
-Powerbi/ → Power BI dashboard (.pbix)
-Tableau/ → Tableau dashboard (.twb/.twbx)
+
+### Option A — Power BI
+1. Download/clone this repository
+2. Open: `Ebook Performance Overview.pbix` in **Power BI Desktop**
+3. If prompted, update dataset file paths  
+   *(Power BI → Transform Data → Data source settings)*
+4. Refresh to load the data
+
+### Option B — Tableau
+1. Open: `Luxury Cosmetics Pop-Up Event Performance Dashboard.twb` in **Tableau Desktop**
+2. If prompted, edit the data connection to point to your local dataset
+3. Refresh the data source
+
 View Images & Outputs
 Check Images/ for dashboard previews and visuals
 ## 👨‍💻 Author
