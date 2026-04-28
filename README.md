@@ -175,7 +175,7 @@ Follow these steps to explore and use the project:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Ajitjha3095/your-repo-name.git
+   git clone https://github.com/Ajitjha3095/EbookPerformanceOverview.git
 
 Navigate to the project folder
 
